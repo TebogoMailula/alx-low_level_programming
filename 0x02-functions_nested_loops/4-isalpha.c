@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * is_alpha - checks for alphabetic character
+ * _isalpha - checks for alphabetic character
  * @c: char to be checked
  * Return: 0 if c is a letter else 0
  */
@@ -10,7 +10,7 @@ if ((c >= 65 && c <= 97) || (c >= 97 && c <= 122))
 {
 return (1);
 }
-else 
+else
 {
 return (0);
 }
