@@ -3,7 +3,7 @@
  * main - program that finds and prints the first 98 Fibonacci numbers
  * Return: 0 (Success)
  */
-int main(void);
+int main(void)
 {
 unsigned long int i;
 unsigned long int bef;
