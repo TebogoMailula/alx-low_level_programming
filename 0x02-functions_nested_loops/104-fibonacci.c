@@ -16,9 +16,9 @@ unsigned long int aft2;
 bef = 1;
 aft = 2;
 l = 1000000;
+printf("%d", bef);
 for (i = 1; 1 < 91; i++)
 {
-printf("%d", bef);
 printf("%d", aft);
 aft += bef;
 bef = aft - bef;
