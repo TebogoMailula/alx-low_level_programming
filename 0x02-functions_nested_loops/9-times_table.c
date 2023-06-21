@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_table - prints 9 times table 
+ * times_table - prints 9 times table
  * Return: empty output
  */
 void times_table(void)
@@ -8,12 +8,12 @@ void times_table(void)
 int x;
 int y;
 int z;
-int u; 
+int u;
 int d;
 for (x = 0; x <= 9; x++)
 {
 for (y = 0; y <= 9; y++)
-{ 
+{
 z = x * y;
 if (z > 9)
 {
