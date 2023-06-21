@@ -15,7 +15,7 @@ unsigned long int aft1;
 unsigned long int aft2;
 bef = 1;
 aft = 2;
-l = 1000000;
+l = 1000000000;
 printf("%lu", bef);
 for (i = 1; 1 < 91; i++)
 {
