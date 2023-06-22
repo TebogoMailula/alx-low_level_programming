@@ -10,7 +10,7 @@ void print_fibonacci(int n)
 int a = 1;
 int b = 2;
 printf("%d, %d", a, b);
-for (int i = 3; i <= n; i++) {
+for (i = 3; i <= n; i++) {
 int c = a + b;
 printf(", %d", c);
 a = b;
