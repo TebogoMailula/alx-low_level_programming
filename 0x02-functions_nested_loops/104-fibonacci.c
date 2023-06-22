@@ -7,6 +7,7 @@
 
 void print_fibonacci(int n)
 {
+int i;
 int a = 1;
 int b = 2;
 printf("%d, %d", a, b);
