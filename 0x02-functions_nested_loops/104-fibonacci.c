@@ -4,9 +4,6 @@
  * Return: 0 (Success)
  * @n: to be checked
  */
-/**
- * print_fibonacci - function that finds and prints Fibonacci
- */
 void print_fibonacci(unsigned long int n)
 {
 unsigned long int i;
