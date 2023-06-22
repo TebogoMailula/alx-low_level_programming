@@ -5,8 +5,6 @@
  * Return: 0 (Success)
  * @n: to be checked
  */
-#include <stdio.h>
-
 void print_fibonacci(unsigned long int n)
 {
 unsigned long int i;
