@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - program that finds and prints the first 98 Fibonacci numbers
- * print_fibonacci - finds and prints the first fib numbers
+ * print_fibonacci - finds and prints the first 98 Fibonacci numbers
  * Return: 0 (Success)
  * @n: to be checked
  */
@@ -9,14 +9,14 @@
 
 void print_fibonacci(int n)
 {
-int i;
-int a = 1;
-int b = 2;
-printf("%d, %d", a, b);
+unsigned long int i;
+unsigned long int a = 1;
+unsigned long int b = 2;
+printf("%lu, %lu", a, b);
 for (i = 3; i <= n; i++)
 {
-int c = a + b;
-printf(", %d", c);
+unsigned long int c = a + b;
+printf(", %lu", c);
 a = b;
 b = c;
 }
