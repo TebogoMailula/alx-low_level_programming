@@ -7,7 +7,7 @@
  */
 #include <stdio.h>
 
-void print_fibonacci(int n)
+void print_fibonacci(unsigned long int n)
 {
 unsigned long int i;
 unsigned long int a = 1;
