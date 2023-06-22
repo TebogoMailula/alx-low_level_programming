@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * print_fibonacci - function that finds and prints Fibonacci
+ * print_fibonacci:  function that finds and prints Fibonacci
  * main - program that finds and prints the first 98 Fibonacci number
  * Return: 0 (Success)
  * @n: to be checked
